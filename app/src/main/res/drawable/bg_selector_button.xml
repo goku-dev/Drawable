@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- selected -->
+    <item android:drawable="@drawable/bg_red_radius_selected"
+        android:state_pressed="true" />
+
+<!-- disabla -->
+    <item android:drawable="@drawable/bg_red_radius_disable"
+        android:state_enabled="false" />
+
+<!-- nomal -->
+    <item android:drawable="@drawable/bg_red_radius" />
+
+
+</selector>
